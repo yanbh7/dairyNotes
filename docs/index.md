@@ -3,23 +3,16 @@
 layout: home
 
 hero:
-  name: "Awesome"
-  text: "A VitePress Site for my dairy and note"
-  tagline: My great project tagline
+  name: 'Huey Dairy'
+  text: 'A Website for My Dairy and Notes'
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 非暴力沟通观感
+      link: /Nonviolent-Communication/part1
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 日常日记分享
+    details: 日常日记，记录自己读物观后感
+  - title: JS知识分享
+    details: 记录前端开发过程中的遇到的问题
 ---
-
