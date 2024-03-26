@@ -5,10 +5,10 @@ export default defineConfig({
   title: "Huey Dairy",
   description: "A Website for My Dairy and Notes",
   base: '/dairyNotes/',
-  head: [['link', { rel: 'icon', href: 'public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/public/logo.png',
+    logo: '/logo.png',
     search: {
       provider: 'local'
     },
