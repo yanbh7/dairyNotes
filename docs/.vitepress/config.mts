@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
+const BASE_URL = '/dairyNotes/'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Huey Dairy",
   description: "A Website for My Dairy and Notes",
-  base: '/dairyNotes/',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  base: BASE_URL,
+  head: [['link', { rel: 'icon', href: `${BASE_URL}favicon.ico` }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
