@@ -51,7 +51,7 @@ export default defineConfig({
         text: 'VS Code',
         collapsed: true,
         items: [
-          { text: '公共格式化配置', link: '/VScode/formate' }
+          { text: '公共格式化配置', link: '/formate' }
         ]
       },
     ],
