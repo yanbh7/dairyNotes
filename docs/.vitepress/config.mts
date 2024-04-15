@@ -44,7 +44,7 @@ export default defineConfig({
         text: 'JS高级知识',
         collapsed: true,
         items: [
-          
+          { text: '面试题1', link: '/javaScript/interview-js' }
         ]
       },
       {
